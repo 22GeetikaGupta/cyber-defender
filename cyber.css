@@ -54,7 +54,7 @@ h1 {
   	padding-top: 20px;
 /*    background-color: #35354D;*/
 	background-color: #343456;
-    
+    	overflow-x: scroll;
 
 	color: #DADAE3;
     font-family: monospace;
