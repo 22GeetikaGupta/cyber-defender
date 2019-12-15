@@ -1,0 +1,63 @@
+<html>
+<head>
+	<link rel="stylesheet" href="cyber.css"> 
+	<body onload="display()">
+		<!-- <p style="float: left; font-size: 25px;color: #EC811C;">Cyber Defender</p> -->
+		<img src="logo2.png">
+		<h1>CYBER DEFENCE ARTICLES</h1>
+
+		<div class="topnav">
+			<a href="#home">Home</a>
+			<a href="#about">About us</a>
+			<a href="#contact">Contact us</a>
+			<a href="#services">Services</a>
+		</div>
+	
+	<div class="menu">
+		<a id="topic1" onclick="showcont(this.id)">Cyber Security</a>
+		<a id="topic2" onclick="showcont(this.id)">Cyber Crime</a>
+		<a id="topic3" onclick="showcont(this.id)">Hacking</a>
+	</div>
+
+	
+<div id="articles">
+
+		<div class="topic1">
+			<h2>CYBER SECURITY</h2>
+			<div> Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. These cyberattacks are usually aimed at accessing, changing, or destroying sensitive information; extorting money from users; or interrupting normal business processes.Implementing effective cybersecurity measures is particularly challenging today because there are more devices than people, and attackers are becoming more innovative.
+			Cyber security is important because government, military, corporate, financial, and medical organizations collect, process, and store unprecedented amounts of data on computers and other devices. A significant portion of that data can be sensitive information, whether that be intellectual property, financial data, personal information, or other types of data for which unauthorized access or exposure could have negative consequences. Organizations transmit sensitive data across networks and to other devices in the course of doing businesses, and cyber security describes the discipline dedicated to protecting that information and the systems used to process or store it. As the volume and sophistication of cyber attacks grow, companies and organizations, especially those that are tasked with safeguarding information relating to national security, health, or financial records, need to take steps to protect their sensitive business and personnel information. As early as March 2013, the nation’s top intelligence officials cautioned that cyber attacks and digital spying are the top threat to national security, eclipsing even terrorism.
+			</div>
+		</div>
+
+		<div class="topic2">
+			<h2>CYBER CRIME</h2>
+			<div> Cybercrime is vastly growing in the world of tech today. Criminals of the World Wide Web exploit internet users’ personal information for their own gain. They dive deep into the dark web to buy and sell illegal products and services. They even gain access to classified government information.
+			Cybercrimes are at an all time high, costing companies and individuals billions of dollars annually. What’s even more frightening is that this figure only represents the last 5 years with no end in sight. The evolution of technology and increasing accessibility of smart tech means there are multiple access points within users’ homes for hackers to exploit. While law enforcement attempts to tackle the growing issue, criminal numbers continue to grow, taking advantage of the anonymity of the internet.Cybercrime is defined as a crime where a computer is the object of the crime or is used as a tool to commit an offense. A cybercriminal may use a device to access a user’s personal information, confidential business information, government information, or disable a device. It is also a cybercrime to sell or elicit the above information online.
+			</div>
+		</div>
+
+		<div class="topic3">
+			<h2>Hacking</h2>
+			<div>Hacking is identifying weakness in computer systems or networks to exploit its weaknesses to gain access. Example of Hacking: Using password cracking algorithm to gain access to a system.Computers have become mandatory to run a successful businesses. It is not enough to have isolated computers systems; they need to be networked to facilitate communication with external businesses. This exposes them to the outside world and hacking. Hacking means using computers to commit fraudulent acts such as fraud, privacy invasion, stealing corporate/personal data, etc. Cyber crimes cost many organizations millions of dollars every year. Businesses need to protect themselves against such attacks.A Hacker is a person who finds and exploits the weakness in computer systems and/or networks to gain access. Hackers are usually skilled computer programmers with knowledge of computer security.Hackers are classified according to the intent of their actions. The following list classifies hackers according to their intent.
+		</div>
+	</div>
+
+</div>
+
+<div><h2 style="text-align: center;font-size: 30px; color: #3838A4"><u>Add your post here</u></h2></div>
+
+<div class="add">
+	 <p><input type="text" placeholder="Title..." id="title"></p>
+	 <p><textarea cols="10" rows="3" placeholder="write here..." id="content"></textarea></p>
+	 	<p class="button"><button onclick="addpost()">ADD POST</button></p>
+</div>
+
+</body>
+</head>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script type="text/javascript" src="cyber.js">
+
+    </script>
+</html>
+

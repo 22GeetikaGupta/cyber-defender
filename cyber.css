@@ -1,0 +1,125 @@
+body {
+	margin: 0px;
+	/*background-color: #CBCBEB;*/
+	background-color: white;
+/*background-color: #F2F4FA;
+*/}
+
+img{
+	float: left;
+	width: 200px;
+	height: 100px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 35px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: cursive;
+	color: #030332;
+/*	position: fixed;
+	margin-top: 20px;
+	margin-left: 30%;*/
+}	
+
+
+.topnav {
+    display: flex;
+    justify-content: center;
+	overflow: hidden;
+	background-color: #030332;
+/*	margin-top: 75px;
+	margin-left: 30%;
+	position: fixed;*/
+
+}
+
+.topnav a {
+/*	float: left;*/
+	text-align: center;
+  	padding: 20px 30px;
+  	font-family: cursive;
+  	text-decoration: none;
+
+  	font-size: 25px;
+  	color: white;
+}
+
+.menu {
+	height: 700px;
+	width: 200px;
+/*	margin-top: 140px;*/
+  	position: absolute;
+  	padding-top: 20px;
+/*    background-color: #35354D;*/
+	background-color: #343456;
+    
+
+	color: #DADAE3;
+    font-family: monospace;
+}
+
+.menu a{
+	display: block;
+	padding: 20px;
+	font-size: 20px;
+
+}
+
+.menu a:hover{
+	background-color: #030332;
+}
+
+#articles {
+	font-family: cursive;
+	position: relative;
+/*	text-align: center;*/
+	margin-top: 20px;
+	margin-left: 250px;
+	margin-right: 100px;
+	/*border: solid 5px;*/
+	padding: 10px;
+
+}
+
+#articles div {
+	font-size: 20px;
+
+}
+
+.add {
+	margin-left: 250px;
+	margin-top: 20px;
+	margin-right: 100px;
+	border: solid 5px;
+}
+
+#title {
+	height: 50px;
+	width: 95%;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 0px;
+
+}
+
+#content {
+	min-height: 300px;
+	width: 95%;
+	margin: 10px;
+
+}
+
+.button {
+	float: left;
+}
+
+button {
+	border-style: none;
+	background-color: #3838A4;
+	padding: 5px;
+	font-size: 20px;
+	font-family: serif;
+
+}
